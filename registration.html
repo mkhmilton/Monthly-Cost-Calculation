@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		input
+		{
+			width: 300px;
+			bottom: 1px solid;
+		}
+		button
+		{
+			border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+		}
+	</style>
+</head>
+<body style="background-color: tomato">
+	<center>
+		<br>
+		<h1>Registration here</h1>
+		<hr>
+		<br>
+		<form action="addresinfo.php" method="post">
+			<input type="text" placeholder="Enter your name" name="name" required><br><br>
+			<input type="email" placeholder="enter your email" name="email" required><br><br>
+			<input type="phone" placeholder="Enter your phone number" name="phone" required><br><br>
+			<input type="password" placeholder="Enter password" name="password" required><br><br>
+			<select name="Country" style="width: 300px;bottom: 1px solid">
+				<option>Select Country</option>
+				<option value="Bangladesh">Bangladesh</option>
+				<option value="India">India</option>
+				<option value="Nepal">Nepal</option>
+				<option value="Pakistan">Pakistan</option>
+				<option value="USA">USA</option>
+				<option value="Uganda">Uganda</option>
+			</select><br><br>
+			<input type="submit" name="submit"  value="submit" style="border:0;
+	background: purple;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 100px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;">
+			
+		</form>
+		<a href="#">Already create account!</a>
+		<button style="width: 150px;background-color: green;color: white;font-size: 16px"><a href="index.html">Sign in</a></button>
+	</center>
+
+
+</body>
+</html>
